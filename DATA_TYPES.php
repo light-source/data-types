@@ -1,15 +1,12 @@
 <?php
 
-namespace DataTypes;
+namespace LightSource\DataTypes;
 
-use StdResponse\STD_RESPONSE;
+use LightSource\StdResponse\STD_RESPONSE;
 
 /**
  * Class DATA_TYPES
- *
- * Abstract class
- *
- * @package LightChatCore\Abs
+ * @package LightSource\DataTypes
  */
 abstract class DATA_TYPES {
 
