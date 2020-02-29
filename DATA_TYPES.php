@@ -47,6 +47,7 @@ abstract class DATA_TYPES {
 	 */
 	final public static function Clean( $typeConst, $value, $args = [], $isSoftMode = false ) {
 
+
 		//// 1. defaults
 
 
