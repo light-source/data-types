@@ -1,11 +1,11 @@
 {
   "name": "lightsource/data-types",
   "type": "library",
-  "description": "Cleaning a variables in dependence of a data type.",
+  "description": "Class for complex data cleaning depending on a type",
   "license": "MIT",
   "require": {
     "ext-mbstring": "*",
-    "lightsource/std-response": "^1.0"
+    "lightsource/std-response": "^2.0"
   },
   "autoload": {
     "psr-4": {

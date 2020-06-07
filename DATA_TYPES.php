@@ -137,7 +137,7 @@ abstract class DATA_TYPES {
 		// stop clear if cast to type is failed
 
 		if ( $violations ) {
-			return STD_RESPONSE::StdResponse( [], false, $violations );
+			return STD_RESPONSE::Create( [], false, $violations );
 		}
 
 
@@ -253,8 +253,8 @@ abstract class DATA_TYPES {
 
 
 		return ( ! $violations ?
-			STD_RESPONSE::StdResponse( [ self::_ARG__VALUE => $value ], true ) :
-			STD_RESPONSE::StdResponse( [], false, $violations ) );
+			STD_RESPONSE::Create( [ self::_ARG__VALUE => $value ], true ) :
+			STD_RESPONSE::Create( [], false, $violations ) );
 	}
 
 	/**
