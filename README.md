@@ -1,4 +1,9 @@
 # Data Types
+[![Latest Stable Version](https://poser.pugx.org/lightsource/data-types/v)](//packagist.org/packages/lightsource/data-types)
+[![Total Downloads](https://poser.pugx.org/lightsource/data-types/downloads)](//packagist.org/packages/lightsource/data-types)
+[![Monthly Downloads](https://poser.pugx.org/lightsource/data-types/d/monthly)](//packagist.org/packages/lightsource/data-types)
+[![Daily Downloads](https://poser.pugx.org/lightsource/data-types/d/daily)](//packagist.org/packages/lightsource/data-types)
+[![License](https://poser.pugx.org/lightsource/data-types/license)](//packagist.org/packages/lightsource/data-types)
 
 ## What is it
 Class for complex data cleaning depending on a type
