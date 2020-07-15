@@ -16,7 +16,7 @@ use LightSource\StdResponse\STD_RESPONSE;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$result = DATA_TYPES::Clean( DATA_TYPES::INT, '10', [
+$result = DATA_TYPES::Clear( DATA_TYPES::INT, '10', [
 	DATA_TYPES::_MIN => 1,
 	DATA_TYPES::_MAX => 20,
 ] );

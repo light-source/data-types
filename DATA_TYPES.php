@@ -45,7 +45,7 @@ abstract class DATA_TYPES {
 	 *
 	 * @return array StdResponse : args = [self::_ARG__VALUE => x] || errorMsgs = [x, x...]
 	 */
-	final public static function Clean( $typeConst, $value, $args = [], $isSoftMode = false ) {
+	final public static function Clear( $typeConst, $value, $args = [], $isSoftMode = false ) {
 
 
 		//// 1. defaults
@@ -114,7 +114,8 @@ abstract class DATA_TYPES {
 				}
 
 				// 'on' to support php forms
-				$value = in_array( $value, [ true, 1, 'true', 'on', ], true );
+
+				$value = in_array( $value, [ true, 1, 'true', '1', 'on', ], true );
 
 				break;
 			case  self::STRING:
