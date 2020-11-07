@@ -2,7 +2,7 @@
   "name": "lightsource/data-types",
   "type": "library",
   "description": "Class for complex data cleaning depending on a type",
-  "license": "MIT",
+  "license": "GPL-2.0-only",
   "require": {
     "ext-mbstring": "*",
     "lightsource/std-response": "^2.0"
